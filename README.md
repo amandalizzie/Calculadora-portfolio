@@ -1,37 +1,84 @@
 # 🧮 Calculadora Web
 
-Projeto de calculadora funcional desenvolvido como parte do meu portfólio de estudos e prática de desenvolvimento web.
-
-**Desenvolvido por: Amanda Elizabeth Silva Cruz**
+Calculadora funcional desenvolvida com tecnologias básicas da web, focada em usabilidade, responsividade e experiência do usuário. 
+Conta com todas as operações essenciais, tratamento de erros, histórico salvo e troca de tema. 
+Ideal para uso diário ou como portfólio de desenvolvimento web.
 
 ---
 
-## 🚀 Funcionalidades
+## 📌 Funcionalidades
+
 - Operações básicas: soma, subtração, multiplicação e divisão
 - Cálculo de porcentagem
-- Suporte a números negativos
-- Tratamento de erros (ex: divisão por zero, valores inválidos)
-- Histórico de cálculos visível na tela
-- Histórico salvo automaticamente (não some ao recarregar ou fechar a página)
-- Funciona com clique nos botões e também com teclado do computador
-- Tema claro e escuro com troca de aparência
-- Design responsivo: adaptado para celular, tablet e computador
+- Tratamento de erros: divisão por zero, valores inválidos e entrada incorreta de dados
+- Histórico de cálculos visível na tela durante o uso
+- Histórico salvo automaticamente no navegador (não se perde ao recarregar ou fechar a página)
+- Funciona com clique nos botões **e** também com teclado do computador
+- Tema claro e escuro com troca de aparência em um clique
+- Design responsivo: adaptado automaticamente para celular, tablet e computador
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-- **HTML5**: estruturação da página
-- **CSS3**: estilização, layout responsivo e definição dos temas
-- **JavaScript**: lógica de cálculo, interatividade, manipulação de eventos e armazenamento de dados no navegador (`localStorage`)
+## 📦 Estrutura do Projeto
+
+Organização dos arquivos e suas funções:
+
+calculadora-web/
+├── imagens/ # Pasta com capturas de tela do projeto
+│ ├── calculadora-claro.png
+│ └── calculadora-escuro.png
+├── index.html # Estrutura da página, elementos visuais e ligação com arquivos externos
+├── style.css # Estilos visuais, cores, tema claro/escuro, responsividade e formatação
+├── script.js # Lógica dos cálculos, tratamento de erros, histórico e eventos de interação
+└── README.md # Documentação completa do projeto (esse arquivo)
+
 
 ---
 
-## 📌 Como Usar
-Baixe os arquivos, abra a pasta e dê dois cliques no arquivo `index.html` para executar localmente
+## 🎨 Screenshots
+
+Visual do projeto em diferentes modos:
+
+![Calculadora - Tema Claro](imagens/calculadora-claro.png)
+![Calculadora - Tema Escuro](imagens/calculadora-escuro.png)
 
 ---
 
-## 💡 Sobre o Projeto
-Este projeto foi desenvolvido do zero, aplicando boas práticas de organização de código, legibilidade e foco na experiência do usuário. O principal objetivo foi demonstrar domínio de lógica de programação, manipulação da interface e uso de armazenamento local.
+## 🔗 Live Demo
 
-Todos os direitos reservados — Projeto desenvolvido exclusivamente para portfólio pessoal.
+Veja o projeto funcionando online:
+🔗 **[Acessar Demonstração](https://github.com/amandalizzie/Calculadora-portfolio)**
+
+---
+
+## 🛠️ Detalhes Técnicos
+
+- **Versão do JavaScript**: ES6+ (utilização de `let`, `const`, manipulação de DOM moderna, funções e tratamento de eventos)
+- **Armazenamento**: `localStorage` para salvar histórico sem necessidade de banco de dados
+- **Navegadores suportados**: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari (versões recentes)
+- **Testes**: Testes manuais realizados para todas as funcionalidades e cenários de erro
+- **Compatibilidade**: Funciona em telas de todos os tamanhos, de celulares a monitores grandes
+
+---
+
+## 📝 Melhorias Futuras
+
+Funcionalidades planejadas para próximas versões:
+
+- Operações avançadas: raiz quadrada, potência e radiciação
+- Modo científico com funções trigonométricas e logarítmicas
+- Atalhos de teclado personalizáveis
+- Opção de exportar ou limpar o histórico de cálculos
+- Registro de data e hora em cada operação salva
+- Suporte a modo de alto contraste para acessibilidade
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**.  
+Você pode usar, modificar e distribuir o código livremente, desde que mantenha a referência ao autor original.
+
+---
+
+Desenvolvido por Amanda Elizabeth Silva Cruz — 💻 Sempre aprendendo e evoluindo.
