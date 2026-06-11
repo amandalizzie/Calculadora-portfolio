@@ -47,7 +47,7 @@ Visual do projeto em diferentes modos:
 ## 🔗 Live Demo
 
 Veja o projeto funcionando online:
-🔗 **[Acessar Demonstração](https://github.com/amandalizzie/Calculadora-portfolio)**
+🔗 **[Acessar Demonstração](https://amandalizzie.github.io/Calculadora-portfolio/)**
 
 ---
 
